@@ -62,14 +62,44 @@ span.sm-text {
   left: 195px;
 }
 
-div.marco-foto.col-2::after{
-  content:"";
+div.fary.marco-foto.col-2::after{
+  content:"F";
   color: #fff;
   position: absolute;
   background-color: #660000;
   border-radius: 40px;
   bottom: 0px; /*Abajo*/
-  right: 10px;  /*derecha*/
+  right: 9px;  /*derecha*/
+  width:60px;   /*ancho*/
+  height: 60px; /*altura*/
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+div.julio.marco-foto.col-2::after{
+  content:"J";
+  color: #fff;
+  position: absolute;
+  background-color: #660000;
+  border-radius: 40px;
+  bottom: 0px; /*Abajo*/
+  right: 9px;  /*derecha*/
+  width:60px;   /*ancho*/
+  height: 60px; /*altura*/
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+div.bertin.marco-foto.col-2::after{
+  content:"B";
+  color: #fff;
+  position: absolute;
+  background-color: #660000;
+  border-radius: 40px;
+  bottom: 0px; /*Abajo*/
+  right: 9px;  /*derecha*/
   width:60px;   /*ancho*/
   height: 60px; /*altura*/
   align-items: center;
