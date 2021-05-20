@@ -1,10 +1,13 @@
-.cabecera {
-    height: 276px;
-}
 :root{
     --colorfondo:#c2e7da;
     --colorbloques:#6290c3;
     --colorcirculos:#660000;
+}
+.cabecera {
+    height: 276px;
+}
+.principal {
+  background-color: var(--colorfondo);
 }
 .caja{
   background-color: var(--colorbloques);
