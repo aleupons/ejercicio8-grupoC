@@ -64,6 +64,7 @@ span.sm-text {
 
 div.fary.marco-foto.col-2::after{
   content:"F";
+  text-align: center;
   color: #fff;
   position: absolute;
   background-color: #660000;
@@ -72,13 +73,13 @@ div.fary.marco-foto.col-2::after{
   right: 9px;  /*derecha*/
   width:60px;   /*ancho*/
   height: 60px; /*altura*/
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  line-height:7.5vh;
+  font-size:7vh;
 }
 
 div.julio.marco-foto.col-2::after{
   content:"J";
+  text-align: center;
   color: #fff;
   position: absolute;
   background-color: #660000;
@@ -87,14 +88,14 @@ div.julio.marco-foto.col-2::after{
   right: 9px;  /*derecha*/
   width:60px;   /*ancho*/
   height: 60px; /*altura*/
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  line-height:7.5vh;
+  font-size:7vh;
 }
 
 div.bertin.marco-foto.col-2::after{
   content:"B";
   color: #fff;
+  text-align: center;
   position: absolute;
   background-color: #660000;
   border-radius: 40px;
@@ -102,9 +103,8 @@ div.bertin.marco-foto.col-2::after{
   right: 9px;  /*derecha*/
   width:60px;   /*ancho*/
   height: 60px; /*altura*/
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  line-height:7.5vh; /*Alinear letra de manera vertical*/
+  font-size:7vh; /*Agrandar y reducir*/
 }
 
 .marco-foto img {
@@ -140,3 +140,4 @@ div.bertin.marco-foto.col-2::after{
     flex: 1;
   }
 }
+
