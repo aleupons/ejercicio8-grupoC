@@ -36,7 +36,11 @@ p.sm-text {
 }
 .marco-foto {
     flex: 0 278px;
-    min-width: 218px;;
     max-width: 278px;
     border-right: 2px dotted white;
+}
+@media (max-width: 501px){
+  .marco-foto {
+    flex: 1 ;
+}
 }
