@@ -28,5 +28,10 @@ p.sm-text {
     border: 3px solid white;
 }
 .caja img{
-  width: 100px;
+  width: 218px;
+}
+.marco-foto {
+    flex: 0 278px;
+    max-width: 278px;
+    border-right: 2px dotted white;
 }
