@@ -1,12 +1,8 @@
-@media (min-width: 1200px) {
-    .contenedor-general {
-        width: 100vw;
-    }
-}
 .cabecera {
     height: 276px;
 }
-/*Provisional*/
-img {
-    max-width: 20px;
+:root{
+    --colorfondo:#c2e7da;
+    --colorbloques:#6290c3;
+    --colorcirculos:#660000;
 }
