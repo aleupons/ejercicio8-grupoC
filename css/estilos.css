@@ -26,18 +26,27 @@ p.sm-text {
   background-color: var(--colorfondo);
 }
 .caja {
-    background-color: var(--colorbloques);
-    border-radius: 25px;
-    border: 3px solid white;
-    font-size: 25px;
+  background-color: var(--colorbloques);
+  border-radius: 25px;
+  border: 3px solid white;
+  font-size: 25px;
 }
 .caja img{
   width: 218px;
 }
 .marco-foto {
-    flex: 0 278px;
-    max-width: 278px;
-    border-right: 2px dotted white;
+  flex: 0 278px;
+  max-width: 278px;
+  border-right: 2px dotted white;
+  position: relative;
+}
+.marco-foto span {
+  width: 50px;
+  height: 50px;
+  background-color: #660000;
+  position: absolute;
+  bottom: -10px;
+  left: 195px;
 }
 @media (max-width: 501px){
   .marco-foto {
