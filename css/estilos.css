@@ -3,8 +3,10 @@
     --colorbloques:#6290c3;
     --colorcirculos:#660000;
 }
-h2{
-  font-size: 30px;
+.caja h2{
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 .cabecera {
   height: 276px;
@@ -29,7 +31,7 @@ p.sm-text {
   background-color: var(--colorbloques);
   border-radius: 25px;
   border: 3px solid white;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .caja img{
   width: 218px;
@@ -51,5 +53,5 @@ p.sm-text {
 @media (max-width: 501px){
   .marco-foto {
     flex: 1 ;
-}
+  }
 }
