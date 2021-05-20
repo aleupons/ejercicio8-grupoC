@@ -6,3 +6,9 @@
     --colorbloques:#6290c3;
     --colorcirculos:#660000;
 }
+.caja{
+  background-color: var(--colorbloques);
+}
+.caja img{
+  width: 100px;
+}
