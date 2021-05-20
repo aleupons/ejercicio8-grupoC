@@ -1,47 +1,58 @@
-:root{
-    --colorfondo:#c2e7da;
-    --colorbloques:#6290c3;
-    --colorcirculos:#660000;
+:root {
+  --colorfondo: #c2e7da;
+  --colorbloques: #6290c3;
+  --colorcirculos: #660000;
 }
-.caja h2{
+
+.caja h2 {
   font-size: 2.2rem;
   font-weight: 400;
   margin-bottom: 20px;
 }
+
 .cabecera {
   height: 276px;
 }
+
 .cabecera h1 {
   font-size: 2rem;
 }
+
 .cabecera p {
   font-size: 1.6rem;
 }
+
 .cabecera * {
   margin: 5px 0;
 }
+
 p.sm-text {
   padding-top: 5px;
   font-size: 0.8rem;
 }
+
 .principal {
   background-color: var(--colorfondo);
 }
+
 .caja {
   background-color: var(--colorbloques);
   border-radius: 25px;
   border: 3px solid white;
   font-size: 1.5rem;
 }
-.caja img{
+
+.caja img {
   width: 218px;
 }
+
 .marco-foto {
   flex: 0 278px;
   max-width: 278px;
   border-right: 2px dotted white;
   position: relative;
 }
+
 .marco-foto span {
   width: 50px;
   height: 50px;
@@ -50,8 +61,37 @@ p.sm-text {
   bottom: -10px;
   left: 195px;
 }
-@media (max-width: 501px){
+
+.marco-foto img {
+  transition: all 1s;
+}
+
+.background-icono-marcado {
+  background-color: green;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.icono-marcado {
+  opacity: 0;
+}
+
+.caja:hover .icono-marcado {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.caja:hover .marco-foto img {
+  transform: scaleX(-1);
+}
+
+.icono-marcado i {
+  color: white;
+}
+
+@media (max-width: 501px) {
   .marco-foto {
-    flex: 1 ;
+    flex: 1;
   }
 }
