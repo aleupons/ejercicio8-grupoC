@@ -4,7 +4,20 @@
     --colorcirculos:#660000;
 }
 .cabecera {
-    height: 276px;
+  height: 276px;
+}
+.cabecera h1 {
+  font-size: 2rem;
+}
+.cabecera p {
+  font-size: 1.6rem;
+}
+.cabecera * {
+  margin: 5px 0;
+}
+p.sm-text {
+  padding-top: 5px;
+  font-size: 0.8rem;
 }
 .principal {
   background-color: var(--colorfondo);
