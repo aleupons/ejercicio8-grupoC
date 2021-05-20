@@ -22,8 +22,10 @@ p.sm-text {
 .principal {
   background-color: var(--colorfondo);
 }
-.caja{
-  background-color: var(--colorbloques);
+.caja {
+    background-color: var(--colorbloques);
+    border-radius: 25px;
+    border: 3px solid white;
 }
 .caja img{
   width: 100px;
