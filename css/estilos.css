@@ -155,8 +155,62 @@ div.bertin.marco-foto.col-2::after {
   color: white;
 }
 
-@media (max-width: 501px) {
+@media (max-width:400px) {
   .marco-foto {
     flex: 1;
+    max-width: auto;
+    max-height: 120px;
+    border-top: 2px dotted white ;
+    border-right: none;
+
   }
+  h2{
+    font-size: 1.2rem !important;
+  }
+  .caja{
+    font-size: 0.7rem;
+  }
+  .marco-foto img{
+    width: 100px;
+  }
+  div.julio.marco-foto.col-2::after{
+  content: "J";
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -6px;
+  right: 45px;
+  width: 30px;
+  height: 30px;
+  line-height: 4.5vh;
+  font-size: 4vh;
+
+}
+div.bertin.marco-foto.col-2::after{
+  content: "B";
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -6px;
+  right: 45px;
+  width: 30px;
+  height: 30px;
+  line-height: 4.5vh;
+  font-size: 4vh;
+}
+div.fary.marco-foto.col-2::after{
+  content: "F";
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  border-radius: 50%;
+  bottom: -6px;
+  right: 45px;
+  width: 30px;
+  height: 30px;
+  line-height: 4.5vh;
+  font-size: 4vh;
+}
 }
