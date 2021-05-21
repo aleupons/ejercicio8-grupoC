@@ -49,7 +49,8 @@ span.sm-text {
 .marco-foto {
   flex: 0 278px;
   max-width: 278px;
-  border-right: 2px dotted white;
+  border-top: 2px dotted white;
+  padding-top: 5px;
   position: relative;
 }
 
